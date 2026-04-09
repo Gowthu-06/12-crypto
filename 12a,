@@ -1,4 +1,4 @@
 12a
 from scapy.all import *
-result, unanswered=traceroute(["www.example.com",www.google.com"])
+result, unanswered=traceroute(["www.example.com","www.google.com"],maxttl=20)
 show.result()
